@@ -2,9 +2,8 @@
 관심 기업에 컨택하여 기업에서 실행하길 희망하는 AI 프로젝트 주제를 정의하고 모델링 컨셉 증명(PoC)를 대신 해보는 프로젝트
 
 ## 현재 착수 중인 문제
-- 데이터에서 인사이트 뽑아내기
-- 개발 문서 작성
-- 채도, 폰트와 mood 파악 관련 논문 스터디
+- documentation
+- object detection, text detection 우선순위 증명
 
 ## 의뢰 내용
 유튜브 비디오 썸네일의 Object detection 을 위한 효용성 높은 Vision Ai 모델 구현.
@@ -18,10 +17,52 @@
 ## 예상 결과물
 썸네일에서의 텍스트 감지 및 추출,  오브젝트 감지
 
-내용 계속적으로 추가 예정
 
 
 
+# 4차 미팅(2022-05-21)
+4차 미팅 후 역할 분담 내용
+기간: 2022-05-21~2022-05-28
+
+1. object detection(전체)
+- 예상 결과
+석범: 샘플 데이터를 통해 yolov3, cascade eff 모델 결과 비교 후 동현에게 결과 공유
+
+용준: 카테고리별로 image 50개씩 뽑아서 샘플 데이터 만들어서 석범, 주영에게 공유
+
+동현:  현재 제목과 썸네일이 동일하게 분류된 데이터와 ocr을 통해 text detection된 데이터를 text detection sample 결과로 보고 이를 object detection sample 결과와 비교하여 우선순위 선정
+
+주영: ocr을 통해 sample데이터를 가지고 text detection 수행하여 동현에게 결과 공유
+
+2. documentation(main: 용준, 다같이.)
+notion 워크스페이스 생성한 후
+update 내용, 질문 정리하여 미팅 하루 전에 대표님께 공유
+
+3. 논문 공유(main: 동현, 다같이.) 수시로.
+4. 다음 미팅 잡기 (미정)
+
+# 3차 미팅(2022-05-17)
+<5/21 미팅 전까지 할 일>
+
+- 공통: 금요일 Brainstorming & Study, Insight 공유
+- 석범, 용준 : opencv, pytesseract, 샘플 추려서 간단한 코드 구현해보기, 채도 논문 학습.
+예상 결과물: 제공받은 데이터에 새로운 컬럼 생성
+- 동현 : Multi modal 스터디
+예상 결과물: 만들어내는 모델링과 멀티모달 적용에 대해
+- 주영 : rekognition 및 다른 사례 학습
+예상 결과물: rekognition에서 얻은 insight로 썸네일 detection을 어떻게 찾으면 좋을지 고민.
+
+- usecase 공유 수시로
+
+ - use case 
+
+이미지 다운로드 말고 다른 부분에서 진행사항 있는지 질문하심.
+
+rekognition 살펴볼 것.
+
+분업해라.
+
+더 분발하자.
 
 
 # 2차 미팅(2022-05-14)
