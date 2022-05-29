@@ -15,9 +15,24 @@
 백만개 이상의 유튜브 썸네일 데이터, 머신러닝 모델을 테스트할 수 있는 고성능 GPU 서버.
 
 ## 예상 결과물
-썸네일에서의 텍스트 감지 및 추출,  오브젝트 감지
+썸네일에서의 텍스트 감지 및 추출,  오브젝트 감지  
 
+## 5차 미팅(2022-05-29)  
+1. OCR 에서 텍스트를 뽑기보다 텍스트의 영역을 찾아보자 (관련 논문 정보 위에 업로드됨)  
 
+관련 논문  
+
+[https://engineering.fb.com/2018/09/11/ai-research/rosetta-understanding-text-in-images-and-videos-with-machine-learning/](https://engineering.fb.com/2018/09/11/ai-research/rosetta-understanding-text-in-images-and-videos-with-machine-learning/)
+
+[https://github.com/facebookresearch/mmbt](https://github.com/facebookresearch/mmbt)
+
+[https://arxiv.org/abs/2005.04790?fbclid=IwAR3yo7xJKW-wr6W-8RUMCEkU-NWVEAyoUeSi7wW_IIWxFUO3MMSCqUIWmwI](https://arxiv.org/abs/2005.04790?fbclid=IwAR3yo7xJKW-wr6W-8RUMCEkU-NWVEAyoUeSi7wW_IIWxFUO3MMSCqUIWmwI)
+
+1. 자동차, 펫, 뷰티, 전자제품 위주의 Object detection 을 Rekognition 혹은 자체 모델링을 활용해서 진행해보자  
+
+## 다음 미팅
+
+6/5 토 15:00
 
 
 # 4차 미팅(2022-05-21)
