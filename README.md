@@ -43,10 +43,11 @@
 2. Rossetta 로 text 영역과 정보 추출하는 거 코드 사용해서 샘플로몇 개 추출 성공했습니다. 토요일 미팅 전까지 다량의 썸네일 데이터 돌려보는 것이 목표입니다.  
 3. Object detection도 현재 Yolo V3로 직접 모델링 하고 있는 상황인데, 계속 실행 중에 darknet import 과정에서 에러가 떠서 교수님께 자문을 구하고자 면담을 잡아놓은 상황입니다ㅠ 아마 이것만 해결되면 썸네일 넣고 돌릴 수 있을 것 같습니다.  
 - 아래에 저희가 참고한 논문과 샘플 사진 첨부해드립니다.  
+![KakaoTalk_20220602_222346538](https://user-images.githubusercontent.com/77192299/171653068-d80d1d59-ace1-4104-8121-d5785273d066.jpg)
+![KakaoTalk_20220602_222346538_01](https://user-images.githubusercontent.com/77192299/171653085-62b0909d-ccc0-4fe3-b4b5-3ded70b53bff.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/90526c41-abea-43ff-bd66-03a4fd69bb57/Untitled.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/915055cc-ac2b-4477-a538-f7a6a5de07c9/Untitled.png)
+
 
 [https://paperswithcode.com/paper/rosetta-large-scale-system-for-text-detection](https://paperswithcode.com/paper/rosetta-large-scale-system-for-text-detection)
 
