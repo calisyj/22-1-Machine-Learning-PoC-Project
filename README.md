@@ -37,6 +37,28 @@
 
 6/5 토 15:00
 
+# 6차미팅 전 진행 상황 공유  
+
+1. 참고하라고 보내주신 자료 MMF(Multi-Modal Framework)는 youtube와 논문을 통해서 학습한 상태입니다. 이미지에 대한 자체적인 정보에서 Question answering 할 수 있다는 점이 흥미로웠는데 내용이 조금 어려워 코드를 보며 추가적인 학습이 필요할 것 같습니다.  
+2. Rossetta 로 text 영역과 정보 추출하는 거 코드 사용해서 샘플로몇 개 추출 성공했습니다. 토요일 미팅 전까지 다량의 썸네일 데이터 돌려보는 것이 목표입니다.  
+3. Object detection도 현재 Yolo V3로 직접 모델링 하고 있는 상황인데, 계속 실행 중에 darknet import 과정에서 에러가 떠서 교수님께 자문을 구하고자 면담을 잡아놓은 상황입니다ㅠ 아마 이것만 해결되면 썸네일 넣고 돌릴 수 있을 것 같습니다.  
+- 아래에 저희가 참고한 논문과 샘플 사진 첨부해드립니다.  
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/90526c41-abea-43ff-bd66-03a4fd69bb57/Untitled.png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/915055cc-ac2b-4477-a538-f7a6a5de07c9/Untitled.png)
+
+[https://paperswithcode.com/paper/rosetta-large-scale-system-for-text-detection](https://paperswithcode.com/paper/rosetta-large-scale-system-for-text-detection)
+
+[https://youtu.be/igAF-48Pwnc](https://youtu.be/igAF-48Pwnc)
+
+- paddle OCR  
+[https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.1/doc/doc_en/whl_en.md](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.1/doc/doc_en/whl_en.md)
+- paddle OCR 기본 구현  
+[https://beok.tistory.com/125](https://beok.tistory.com/125)
+- Easy OCR  
+[https://developer-youn.tistory.com/46?category=764229](https://developer-youn.tistory.com/46?category=764229)
+
 
 # 4차 미팅(2022-05-21)
 4차 미팅 후 역할 분담 내용
