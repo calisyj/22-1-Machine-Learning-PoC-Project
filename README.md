@@ -2,8 +2,11 @@
 관심 기업에 컨택하여 기업에서 실행하길 희망하는 AI 프로젝트 주제를 정의하고 모델링 컨셉 증명(PoC)를 대신 해보는 프로젝트
 
 ## 현재 착수 중인 문제
-- documentation
-- object detection, text detection 우선순위 증명
+- OCR 에서 텍스트를 뽑기보다 텍스트의 영역을 찾아보자 (관련 논문 정보 위에 업로드됨)  
+
+- 자동차, 펫, 뷰티, 전자제품 위주의 Object detection 을 Rekognition 혹은 자체 모델링을 활용해서 진행해보자  
+- ~documentation~
+- ~object detection, text detection 우선순위 증명~
 
 ## 의뢰 내용
 유튜브 비디오 썸네일의 Object detection 을 위한 효용성 높은 Vision Ai 모델 구현.
